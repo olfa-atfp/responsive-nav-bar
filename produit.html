@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nom du Produit</title>
+    <link rel="stylesheet" href="produit.css">
+</head>
+<body style="background-color:white">
+
+    <main>
+        <section class="page-produit">
+            <!-- Bloc de l'image du produit -->
+            <div class="produit-image">
+                <img src="image-du-produit.jpg" alt="Description de l'image du produit" width="5%" height="5%">
+            </div>
+
+            <!-- Bloc des informations du produit -->
+            <div class="produit-informations">
+                <h1>Nom du Produit</h1>
+                <p class="description-courte">
+                    Une description courte et attrayante du produit.
+                </p>
+                <p class="prix">
+                    $19.99
+                </p>
+                <!-- Options du produit (taille, couleur, etc.) -->
+                <div class="options-produit">
+                    <label for="taille">Taille :</label>
+                    <select id="taille" name="taille">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                </div>
+                <button class="bouton-acheter">Ajouter au panier</button>
+            </div>
+        </section>
+
+        <!-- Section pour les avis clients (facultatif) -->
+        <section class="avis-clients">
+            <h2>Ce que les clients en pensent</h2>
+            <div class="avis">
+                <p>Super produit, je recommande !</p>
+                <p><strong>Avis de :</strong> Jean Dupont</p>
+            </div>
+            <!-- Ajoutez d'autres avis ici -->
+        </section>
+
+        <!-- Section pour les détails et caractéristiques (facultatif) -->
+        <section class="details-produit">
+            <h2>Détails techniques</h2>
+            <ul>
+                <li>Matériau : Coton</li>
+                <li>Poids : 200g</li>
+                <li>Fabriqué en : France</li>
+            </ul>
+        </section>
+        
+    </main>
+<table border="1" style="background-color: rgb(218, 109, 194);">
+  <caption>Liste de produits</caption>
+  <thead>
+    <tr>
+      <th>Produit</th>
+      <th>Prix</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nom du produit 1</td>
+      <td>$10.00</td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>Nom du produit 2</td>
+      <td>$25.50</td>
+        <td><input type="checkbox"></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
